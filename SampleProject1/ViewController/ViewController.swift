@@ -67,7 +67,7 @@ class ViewController: UIViewController,UISearchBarDelegate {
             }
             
          let dataManager = DataManager(context: MainViewModel.shared.context)
-//         dataManager.fetchData(from: "https://raw.githubusercontent.com/princesolomon/zstore/main/data.json")
+        
          dataManager.fetchData(from: "https://thiruvazhagans.github.io/products_api/products.json")
 
             MainViewModel.shared.fetchStoredData()
